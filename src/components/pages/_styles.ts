@@ -36,6 +36,16 @@ const Footer = styled.div`
     color: white;
 `;
 
+const Images = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+`;
+
+const ImgShoes = styled.img`
+    width: 200px;
+    height: auto;
+`;
+
 const NavWrapper = styled.div`
     margin-left: 10px;
     font-size: 20px;
@@ -59,4 +69,5 @@ const NavWrapper = styled.div`
 export const S = {
     Header, Body, Nav,
     Content, Footer, NavWrapper,
+    Images, ImgShoes,
 }
