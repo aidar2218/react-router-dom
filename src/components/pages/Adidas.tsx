@@ -7,7 +7,7 @@ import {S} from './_styles';
 import {Link} from "react-router-dom";
 
 
-export type AdidasItem = {
+export type ShoesItemType = {
     id: number
     model: string;
     collection: string;
@@ -15,7 +15,7 @@ export type AdidasItem = {
     picture: string;
 }
 
-export const adidasArr: AdidasItem[] = [
+export const adidasArr: ShoesItemType[] = [
     {
         id: 1,
         model: 'ADIDAS ADIFOM TRXN',
