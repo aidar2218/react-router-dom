@@ -49,10 +49,8 @@ function App() {
                         <Route path={PATH.MODEL} element={<Model/>}/>
 
                         <Route path={PATH.ERROR_PAGE} element={<Error404/>}/>
+                        <Route path={"/*"} element={<Error404/>}/>
                     </Routes>
-                    {/*<Adidas/>*/}
-                    {/*<Puma />*/}
-                    {/*<Abibas/>*/}
                 </S.Content>
             </S.Body>
             <S.Footer>abibas 2023</S.Footer>
